@@ -1,0 +1,13 @@
+
+// Natan da Silveira Ferreira ; 120027447 ;
+
+package br.com.bancoomicron.contas;
+
+public class ContaPoupanca extends ContaCorrente {
+    public ContaPoupanca(int numero, int matricula_cliente) {
+        super(numero, matricula_cliente);
+    }
+    public void render(double juros){
+        this.saldo*=juros;
+    }
+}
